@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#bg::before {
+  content: "";
+  background: url('bg1.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#box {
+  /* border: 2px solid black; */
+}
+
+#name {
+  display: block;
+  width: 35rem;
+  margin: auto;
+  margin-top: 100px;
+  padding: 16px;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+
+#name placeholder {
+  color: rgb(169, 168, 168);
+}
+
+#btn {
+  display: block;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: darkgrey;
+  color: black;
+  font-size: 1.2rem;
+  font-family: cursive;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#combo {
+  /* border: 2px solid black; */
+  margin-top: 30px;
+  display: flex;
+}
+
+#poster {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  margin-left: 80px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+
+#info {
+  /* border: 2px solid green; */
+  margin: 50px;
+}
+
+#info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2px;
+  font-family: cursive;
+}
+
+#info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+#info li {
+  list-style: none;
+  font-family: cursive;
+  margin: 2px;
+}
+
+#info #award {
+  color: brown;
+}
+
+#plot {
+  color: black;
+}
+
+#emptyBox {
+  border: 2px solid black;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 20px;
+  /* background-color: rgb(193, 105, 120); */
+}
+
+.empty {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.empty p {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.empty img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+
+#exist {
+  border: 2px solid black;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(56, 94, 49);
+}
+
+#exist p {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+#exist img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width : 890px) {
+  #name {
+    width: 15rem;
+    margin-top: 40px;
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  #btn {
+    width: 6rem;
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  #empty {
+    width: 200px;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 6px;
+  }
+
+  #empty p {
+    font-size: 1rem;
+  }
+
+  #empty img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #exist {
+    width: 200px;
+    margin-top: 8s0px;
+    border-radius: 20px;
+    padding: 6px;
+  }
+
+  #exist p {
+    font-size: 1rem;
+  }
+
+  #poster {
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+  }
+
+  #combo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #info {
+    margin: 20px;
+  }
+
+  #info h1 {
+    font-size: 1.5rem;
+  }
+
+  #info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  #info li {
+    margin: 1px;
+    font-size: 0.7rem;
+  }
+
+}
