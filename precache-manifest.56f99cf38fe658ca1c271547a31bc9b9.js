@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b79423bebaa074b5a816",
-    "url": "/Movie-Hacking/static/css/main.7eba7657.chunk.css"
+    "revision": "7b8b0194cf84a5c00dfa",
+    "url": "/Movie-Hacking/static/css/main.df1c2a28.chunk.css"
   },
   {
-    "revision": "b79423bebaa074b5a816",
-    "url": "/Movie-Hacking/static/js/main.b79423be.chunk.js"
+    "revision": "7b8b0194cf84a5c00dfa",
+    "url": "/Movie-Hacking/static/js/main.7b8b0194.chunk.js"
   },
   {
     "revision": "b73b78321f36c315e081",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Movie-Hacking/static/media/bg1.a3ba73f1.jpg"
   },
   {
-    "revision": "77341efbed68682bb2448fa7d059e4e8",
+    "revision": "5ea5952eeb0dfcdec50b18339cc85820",
     "url": "/Movie-Hacking/index.html"
   }
 ];
